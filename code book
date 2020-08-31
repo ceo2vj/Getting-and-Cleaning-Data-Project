@@ -1,0 +1,16 @@
+Getting and Cleaning Data -- final project code book
+
+
+The original data was transformed by
+1.) Merging the test data and training data to create a compiled dataset.
+2.) Pulling the mean and std. dev. for the relevant metrics.
+3.) Naming the elements in the dataset.
+4.) Creating a final dataset with the averages for the datasets.
+
+About R script
+File with R code "dataset code.R" performs the tidy dataset creation and pull.
+
+About variables:
+x_train, y_train, x_test, y_test, subject_train and subject_test contain the downloaded data.
+x_data, y_data and subject_data merge the previous datasets to further analysis.
+features contains the correct names for the x_data dataset, which are applied to the column names stored in
